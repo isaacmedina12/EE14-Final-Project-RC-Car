@@ -9,10 +9,19 @@
   </tr>
 </table>
 
+### Project Showcase Flyers:
+<table>
+  <tr>
+    <td><img src="images/RC-Car-Handout.jpg" alt=First Page Flyer"" width="600"/></td>
+    <td><img src="images/RC-Car-Handout-2.jpeg" alt="Second Page Flyer" width="600"/></td>
+  </tr>
+</table>
 
 ## Overview
 
 This project showcases a remote-controlled (RC) car developed as the final project for EE14. The system integrates an STM32 microcontroller with ESP32 modules to facilitate low-latency wireless control. The STM32 captures joystick inputs and sends them over UART to an ESP32, relaying the data via ESP-NOW to a second ESP32 on the car. The receiving ESP32 then sends the data via UART to the receiving STM32, which interprets that data and sets the turn angle (servo motor) and the speed of the DC motor. 
+
+
 
 ## Features
 
@@ -43,5 +52,6 @@ This project showcases a remote-controlled (RC) car developed as the final proje
 ### Block Diagram:
 ![Block Diagram](images/Block-Diagram.jpg)
 
+## Software
 
 
