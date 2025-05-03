@@ -25,6 +25,7 @@ This project showcases a remote-controlled (RC) car developed as the final proje
 
 ## Hardware
 - **Microcontrollers**
+  
   - 2 STM32L432KCs - One for input data, and one for output to the motors.
   - 1 ESP-WROOM-32 (Used for transmission)
   - 1 ESP32-C3-WROOM-02 (Used for receiving data)
