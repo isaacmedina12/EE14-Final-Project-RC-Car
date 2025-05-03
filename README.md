@@ -20,7 +20,7 @@ This project showcases a remote-controlled (RC) car developed as the final proje
   - ESP-NOW peer-to-peer protocol for sub-millisecond packet delivery  
 
 - **Modular Code Structure**  
-  - Separate folders for transmitter (STM32), intermediary (ESP32), and receiver (ESP32)  
+  - Separate folders for transmitter (STM32), intermediary (ESP32 to ESP32), and receiving STM32 
   - Clear build instructions for each  
 
 ## Hardware
