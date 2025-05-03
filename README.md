@@ -32,6 +32,13 @@ This project showcases a remote-controlled (RC) car developed as the final proje
   - 2 STM32L432KCs. One for input data, and one for output to the motors.
   - 1 ESP-WROOM-32 (Used for transmission)
   - 1 ESP32-C3-WROOM-02 (Used for receiving data)
+  - 1 Analog Joystick Board
+  - 1 TB6612FNG H-Bridge
+  - 1 Servo Motor
+  - 1 Tamiya 72005 6-Speed Gearbox Kit DC Motor
+  - 1 7.4V, 1000mAh/25C LiPo battery
+  - 1 LM2596 Buck Converter
+  - 100µF and 10µF capacitors
   
 ### Block Diagram:
 ![Block Diagram](images/Block-Diagram.jpg)
