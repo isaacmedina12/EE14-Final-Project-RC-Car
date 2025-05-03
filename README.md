@@ -2,6 +2,13 @@
 
 ![The Car Itself](images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg)
 
+<table>
+  <tr>
+    <td><img src="images/images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg" alt="The Car Itself" width="300"/></td>
+    <td><img src="images/images/IMG_5365.jpeg" alt="Car and Remote Control" width="300"/></td>
+  </tr>
+</table>
+
 ## Overview
 
 This project showcases a remote-controlled (RC) car developed as the final project for EE14. The system integrates an STM32 microcontroller with ESP32 modules to facilitate low-latency wireless control. The STM32 captures joystick inputs and sends them over UART to an ESP32, which then relays the data via ESP-NOW to a second ESP32 on the car.
