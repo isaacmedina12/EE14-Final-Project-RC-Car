@@ -1,5 +1,7 @@
 # EE14 Final Project: RC Car with STM32 & ESP32
 
+![Alt Texr](images/IMG_5365.JPG)
+
 ## Overview
 
 This project showcases a remote-controlled (RC) car developed as the final project for EE14. The system integrates an STM32 microcontroller with ESP32 modules to facilitate low-latency wireless control. The STM32 captures joystick inputs and sends them over UART to an ESP32, which then relays the data via ESP-NOW to a second ESP32 on the car.
