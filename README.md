@@ -1,4 +1,5 @@
 # EE14 Final Project: RC Car with STM32 & ESP32
+## Made By: Isaac Medina, Jan Konings, and Ryan Chen
 
 ![The Car Itself](images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg)
 
@@ -19,7 +20,7 @@
 
 ## Overview
 
-This project showcases a remote-controlled (RC) car developed as the final project for EE14. The system integrates an STM32 microcontroller with ESP32 modules to facilitate low-latency wireless control. The STM32 captures joystick inputs and sends them over UART to an ESP32, relaying the data via ESP-NOW to a second ESP32 on the car. The receiving ESP32 then sends the data via UART to the receiving STM32, which interprets that data and sets the turn angle (servo motor) and the speed of the DC motor. 
+This project showcases a remote-controlled (RC) car developed as the final project for EE14 at Tufts University. The system integrates an STM32 microcontroller with ESP32 modules to facilitate low-latency wireless control. The STM32 captures joystick inputs and sends them over UART to an ESP32, relaying the data via ESP-NOW to a second ESP32 on the car. The receiving ESP32 then sends the data via UART to the receiving STM32, which interprets that data and sets the turn angle (servo motor) and the speed of the DC motor. 
 
 
 
