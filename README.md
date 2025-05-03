@@ -17,24 +17,6 @@ This project showcases a remote-controlled (RC) car developed as the final proje
   - Separate folders for transmitter (STM32), intermediary (ESP32), and receiver (ESP32)  
   - Clear build instructions for each  
 
-## Images
-![The Car Itself](images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg)
-
-<table>
-  <tr>
-    <td><img src="images/IMG_6138.jpeg" alt="The Car Itself" width="600"/></td>
-    <td><img src="images/IMG_5365.jpeg" alt="Car and Remote Control" width="600"/></td>
-  </tr>
-</table>
-
-### Project Showcase Flyers:
-<table>
-  <tr>
-    <td><img src="images/RC-Car-Handout.jpg" alt=First Page Flyer"" width="800"/></td>
-    <td><img src="images/RC-Car-Handout-2.jpeg" alt="Second Page Flyer" width="800ß"/></td>
-  </tr>
-</table> 
-
 ## Hardware
 - **Microcontrollers**
   - 2 STM32L432KCs. One for input data, and one for output to the motors.
@@ -65,6 +47,20 @@ This project showcases a remote-controlled (RC) car developed as the final proje
   - STM32s were programmed in Embedded C using PlatformIO.
   -  ESP32s were programmed in C++ using the Arduino IDE.
   -  Data is transmitted as a 4-byte struct: two bytes for the joystick’s X value and two for the Y value, using little-endian formatting.
+## Images
+![The Car Itself](images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg)
 
+<table>
+  <tr>
+    <td><img src="images/IMG_6138.jpeg" alt="The Car Itself" width="600"/></td>
+    <td><img src="images/IMG_5365.jpeg" alt="Car and Remote Control" width="600"/></td>
+  </tr>
+</table>
 
-
+### Project Showcase Flyers:
+<table>
+  <tr>
+    <td><img src="images/RC-Car-Handout.jpg" alt=First Page Flyer"" width="800"/></td>
+    <td><img src="images/RC-Car-Handout-2.jpeg" alt="Second Page Flyer" width="800ß"/></td>
+  </tr>
+</table> 
