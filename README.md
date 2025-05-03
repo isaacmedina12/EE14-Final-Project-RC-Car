@@ -12,8 +12,8 @@
 ### Project Showcase Flyers:
 <table>
   <tr>
-    <td><img src="images/RC-Car-Handout.jpg" alt=First Page Flyer"" width="600"/></td>
-    <td><img src="images/RC-Car-Handout-2.jpeg" alt="Second Page Flyer" width="600"/></td>
+    <td><img src="images/RC-Car-Handout.jpg" alt=First Page Flyer"" width="800"/></td>
+    <td><img src="images/RC-Car-Handout-2.jpeg" alt="Second Page Flyer" width="800ß"/></td>
   </tr>
 </table>
 
