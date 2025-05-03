@@ -41,9 +41,9 @@ This project showcases a remote-controlled (RC) car developed as the final proje
 
 ## Software
 - **Transmitter Side**
-  - The transmitter side STM32 The transmitter-side STM32 uses its ADC to read analog joystick inputs (X and Y axes), packages them into a 4-byte struct, and sends the data over UART to the ESP- 
+  - The transmitter-side STM32 uses its ADC to read analog joystick inputs (X and Y axes), packages them into a 4-byte struct, and sends the data over UART to the ESP- 
     WROOM-32.
-  - The ESP-WROOM-32 transmitter decodes the bytes using a state machine and relays the data to a receiving ESP32 using the ESP-NOW wireless protocol.
+  - The ESP-WROOM-32 transmitter decodes the bytes using a state machine and relays the data to a receiving ESP32-C3-WROOM-32 using the ESP-NOW wireless protocol.
 - **Receiver Side**
   - The receiver-side ESP32 unpacks the struct and forwards it over UART to the second STM32.
   - The receiving STM32 interprets the data:
