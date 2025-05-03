@@ -1,5 +1,5 @@
 # EE14 Final Project: RC Car with STM32 & ESP32
-## Made By: Isaac Medina, Jan Konings, and Ryan Chen
+### Made By: Isaac Medina, Jan Konings, and Ryan Chen
 
 ![The Car Itself](images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg)
 
