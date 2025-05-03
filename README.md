@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <td><img src="images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg" alt="The Car Itself" width="600"/></td>
+    <td><img src="images/IMG_6138.jpeg" alt="The Car Itself" width="600"/></td>
     <td><img src="images/IMG_5365.jpeg" alt="Car and Remote Control" width="600"/></td>
   </tr>
 </table>
