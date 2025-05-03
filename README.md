@@ -54,5 +54,19 @@ This project showcases a remote-controlled (RC) car developed as the final proje
 ![Block Diagram](images/Block-Diagram.jpg)
 
 ## Software
+- **Transmitter Side**
+  - The transmitter side STM32 The transmitter-side STM32 uses its ADC to read analog joystick inputs (X and Y axes), packages them into a 4-byte struct, and sends the data over UART to the ESP- 
+    WROOM-32.
+  - The ESP-WROOM-32 transmitter decodes the bytes using a state machine and relays the data to a receiving ESP32 using the ESP-NOW wireless protocol.
+- **Receiver Side**
+  - The receiver-side ESP32 unpacks the struct and forwards it over UART to the second STM32.
+  - The receiving STM32 interprets the data:
+    - The X-axis controls the servo angle for steering via PWM.
+    - The Y-axis controls motor direction (via H-bridge polarity) and speed (via PWM)
+- **Tools and Langauges**
+  - STM32s were programmed in Embedded C using PlatformIO.
+  -  ESP32s were programmed in C++ using the Arduino IDE.
+  -  Data is transmitted as a 4-byte struct: two bytes for the joystick’s X value and two for the Y value, using little-endian formatting.
+
 
 
