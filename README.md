@@ -4,10 +4,11 @@
 
 <table>
   <tr>
-    <td><img src="images/images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg" alt="The Car Itself" width="300"/></td>
-    <td><img src="images/images/IMG_5365.jpeg" alt="Car and Remote Control" width="300"/></td>
+    <td><img src="images/D922B4D1-402D-464D-BAD7-3A559D55D4E8.jpeg" alt="The Car Itself" width="300"/></td>
+    <td><img src="images/IMG_5365.jpeg" alt="Car and Remote Control" width="300"/></td>
   </tr>
 </table>
+
 
 ## Overview
 
